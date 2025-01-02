@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.4.0")  // Ensure compatibility
+    }
+    android {
+    defaultConfig {
+        ndkVersion '21.3.6528147'  // Replace with the NDK version you need
+    }
+}
+}
